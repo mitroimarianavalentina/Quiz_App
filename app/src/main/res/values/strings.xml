@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">quiz</string>
+
+    <string name="quiz_description">Quiz Foto</string>
+    <string name="fashion_description">Fashion Quiz</string>
+    <string name="sports_description">Sports Quiz</string>
+    <string name="culture_description">Culture Quiz</string>
+
+    <string name="fashion_quiz">Fashion</string>
+    <string name="sports_quiz">Sports</string>
+    <string name="culture_quiz">Culture</string>
+
+    <string name="title_of_fashion_quiz">Let\'s start the fashion quiz</string>
+    <string name="title_of_sports_quiz">Let\'s start the sports quiz</string>
+    <string name="title_of_culture_quiz">Let\'s start the culture quiz</string>
+
+
+    <string name="see_answer_fashion_quiz">See the results</string>
+    <string name="see_answer_sports_quiz">See the results</string>
+    <string name="see_answer_culture_quiz">See the results</string>
+
+
+    <!-- FASHION QUIZ -->
+    <!-- QUESTIONS AND ANSWERS -->
+
+    <!--    Question I   -->
+    <string name="question1_fashionQuiz">1. Who created the first pair of blue jeans?</string>
+    <string name="q1_a1_fashion_R">Levis Strauss</string>
+    <string name="q1_a2_fashion">Riccardo Tisci</string>
+    <string name="q1_a3_fashion">Olivier Rousteing</string>
+
+    <!--    Question  II  -->
+    <string name="question2_fashionQuiz">2. ‘Coach’ is a brand name for which fashion items?</string>
+    <string name="answer_question2_fashion">Write here your answer</string>
+
+    <!--    Question  III  -->
+    <string name="question8_fashionQuiz">3. In the fashion industry, what does ‘Pret-a-porter’ mean?</string>
+    <string name="q3_a1_fashion_R">Ready to wear</string>
+    <string name="q3_a2_fashion">High Class</string>
+    <string name="q3_a3_fashion">Luxury clothing</string>
+
+    <!-- .......................................................................................................................... -->
+    <!-- .......................................................................................................................... -->
+    <!-- .......................................................................................................................... -->
+
+
+    <!-- SPORTS QUIZ -->
+    <!-- QUESTIONS AND ANSWERS -->
+
+    <!--    Question I   -->
+    <string name="question1_sportsQuiz">1.What NFL team has won the most Super Bowl games to date?</string>
+    <string name="q1_a1_sports">The Minnesota Vikings </string>
+    <string name="q1_a2_sports">The New England Patriots</string>
+    <string name="q1_a3_sports_R">The Pittsburgh Steelers</string>
+
+    <!--    Question  II  -->
+    <string name="question2_sportsQuiz">2. How many undefeated fights had Mike Tyson before losing he\'s first fight?</string>
+    <string name="answer_question2_sports">Write here your answer</string>
+
+    <!--    Question  III -->
+    <string name="question3_sportsQuiz">3. Female players who were WTA no. 1?</string>
+    <string name="q3_a1_sports_R">Steffi Graf</string>
+    <string name="q3_a2_sports_R">Simona Halep</string>
+    <string name="q3_a3_sports">Svetlana Kuznetsova</string>
+
+    <!--    Question  IV  -->
+    <string name="question4_sportsQuiz">4. Who was the first hoopster to win eight NBA scoring titles?</string>
+    <string name="q4_a1_sports_R">Michael Jordan</string>
+    <string name="q4_a2_sports">Bill Russel</string>
+    <string name="q4_a3_sports">Phil Jackson</string>
+
+
+    <!-- .......................................................................................................................... -->
+    <!-- .......................................................................................................................... -->
+    <!-- .......................................................................................................................... -->
+
+
+    <!-- CULTURE QUIZ -->
+    <!-- QUESTIONS AND ANSWERS -->
+
+    <!--    Question I    -->
+    <string name="question1_cultureQuiz">1. What is the capital of Romania?</string>
+    <string name="answer_question1_culture">Write here your answer</string>
+
+    <!--    Question  II   -->
+    <string name="question2_cultureQuiz">2.Who is the founder of Instagram?</string>
+    <string name="q2_a1_culture">Jack Dorsey</string>
+    <string name="q2_a2_culture_R">Kevin Systrom</string>
+    <string name="q2_a3_culture">Jan Koum</string>
+
+    <!--    Question  VIII  -->
+    <string name="question3_cultureQuiz">3. Choose only the conjunctions.</string>
+    <string name="q3_a1_culture_R">and</string>
+    <string name="q3_a2_culture_R">but</string>
+    <string name="q3_a3_culture_R">or</string>
+
+
+    <string name="message_fashion">looks like you are a \"marie claire\" reader\n\nyour score is:</string>
+    <string name="message_sports">Wooow!!! you are a big sports fan! ;)\n\nyour score is:</string>
+    <string name="message_culture">you really like to know stuf!\n\nyour score is:</string>
+    <string name="total">/3</string>
+    <string name="total_sports">/4</string>
+
+
+</resources>

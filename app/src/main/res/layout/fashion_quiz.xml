@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marry.quiz.Fashion_Quiz">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/layout_margin"
+        android:background="@drawable/background_fashion"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextViews"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height"
+            android:background="@color/fashion_text_view_background"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/title_of_fashion_quiz"
+            android:textAlignment="center"
+            android:textAllCaps="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question1_fashionQuiz" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/answer_one_question_one_fashion_quiz"
+                    style="@style/RadioButtonAndCheckBoxes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q1_a1_fashion_R" />
+
+                <RadioButton
+                    android:id="@+id/answer_two_question_one_fashion_quiz"
+                    style="@style/RadioButtonAndCheckBoxes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q1_a2_fashion" />
+
+                <RadioButton
+                    android:id="@+id/answer_three_question_one_fashion_quiz"
+                    style="@style/RadioButtonAndCheckBoxes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q1_a3_fashion" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question2_fashionQuiz" />
+
+            <EditText
+                android:id="@+id/answer_question_two_fashion_quiz"
+                style="@style/EditView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/answer_question2_fashion"
+                android:inputType="textCapWords" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question8_fashionQuiz" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/answer_one_question_three_fashion_quiz"
+                    style="@style/RadioButtonAndCheckBoxes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q3_a1_fashion_R" />
+
+                <RadioButton
+                    android:id="@+id/answer_two_question_three_fashion_quiz"
+                    style="@style/RadioButtonAndCheckBoxes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q3_a2_fashion" />
+
+                <RadioButton
+                    android:id="@+id/answer_three_question_three_fashion_quiz"
+                    style="@style/RadioButtonAndCheckBoxes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q3_a3_fashion" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/fashion_button"
+            style="@style/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/fashion_quiz_button"
+            android:onClick="seeAnswerFashionQuiz"
+            android:text="@string/see_answer_fashion_quiz"
+            android:textSize="@dimen/textSizeQuiz"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

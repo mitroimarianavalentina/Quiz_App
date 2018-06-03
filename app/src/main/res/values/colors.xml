@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- background for fashion quizz title -->
+    <color name="fashion_text_view_background">#ff8080</color>
+    <!-- button background for fashion pop -->
+    <color name="fashion_pop_button">#e60000</color>
+    <!-- button text color for fashion pop -->
+    <color name="text_color_fashion_pop_button">#ffffff</color>
+
+    <!-- background for sports quizz title -->
+    <color name="sports_text_view_background">#00334d</color>
+    <!-- button background for sports pop -->
+    <color name="sports_pop_button">#e0ebeb</color>
+    <!-- button text color for sports pop -->
+    <color name="text_color_sports_pop_button">#00334d</color>
+
+    <!-- background for culture quizz title -->
+    <color name="culture_text_view_background">#ecc6c6</color>
+    <!-- button background for culture pop -->
+    <color name="culture_pop_button">#661400</color>
+    <!-- button text color for culture pop -->
+    <color name="text_color_culture_pop_button">#ffffff</color>
+
+    <color name="fashion_quiz_button">#ff8080</color>
+    <color name="culture_quiz_button">#ecc6c6</color>
+    <color name="sports_quiz_button">#00334d</color>
+</resources>

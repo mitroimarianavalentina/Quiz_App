@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/layout_margin"
+    android:orientation="vertical"
+    tools:context="com.example.marry.quiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/quiz_description"
+            android:scaleType="centerCrop"
+            android:src="@drawable/quiz" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/TextViews"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/fashion_quiz"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="@dimen/textSize" />
+
+        <TextView
+            style="@style/TextViews"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sports_quiz"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="@dimen/textSize" />
+
+        <TextView
+            style="@style/TextViews"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/culture_quiz"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="@dimen/textSize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/fashion_image"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/layout_marginEnd"
+            android:layout_weight="1"
+            android:contentDescription="@string/fashion_quiz"
+            android:onClick="quizAboutFashion"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fashion" />
+
+        <ImageView
+            android:id="@+id/sports_image"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/layout_marginEnd"
+            android:layout_weight="1"
+            android:contentDescription="@string/sports_quiz"
+            android:onClick="quizAboutSports"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tenis_player" />
+
+        <ImageView
+            android:id="@+id/learning_image"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/culture_quiz"
+            android:onClick="quizAboutCulture"
+            android:scaleType="centerCrop"
+            android:src="@drawable/culture" />
+    </LinearLayout>
+</LinearLayout>

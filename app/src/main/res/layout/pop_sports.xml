@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sports_pop"
+    tools:context="com.example.marry.quiz.Pop_Sports">
+
+    <Button
+        android:id="@+id/mesaj_sports_quiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/padding_and_layout_margin"
+        android:background="@color/sports_pop_button"
+        android:padding="@dimen/padding_and_layout_margin"
+        android:text=""
+        android:textAllCaps="true"
+        android:textColor="@color/text_color_sports_pop_button"
+        android:textSize="@dimen/textSize"
+        android:textStyle="bold" />
+</RelativeLayout>

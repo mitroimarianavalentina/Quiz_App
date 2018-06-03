@@ -1,0 +1,78 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!-- Color for the app bar -->
+        <item name="colorPrimary">#ff6666</item>
+        <!-- Color for the status bar and contextual app bars -->
+        <item name="colorPrimaryDark">#00334d</item>
+        <!-- themes UI controls like checkboxes and text fields -->
+        <item name="colorAccent">#ff3333</item>
+    </style>
+
+    <!-- styles the Fashion PopUp window -->
+    <style name="AppTheme.Fashion_Quiz_Theme">
+
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <!-- styles the Sports PopUp window -->
+    <style name="AppTheme.Sports_Quiz_Theme">
+
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <!-- styles the Culture PopUp window -->
+    <style name="AppTheme.Culture_Quiz_Theme">
+
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <!-- styles all the TextViews  -->
+    <style name="TextViews">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <!-- styles all the Radio Buttonz and Check Boxex -->
+    <style name="RadioButtonAndCheckBoxes">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginLeft">32dp</item>
+        <item name="android:textStyle">italic|bold</item>
+    </style>
+
+    <!-- styles all the EditViews -->
+    <style name="EditView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginBottom">32dp</item>
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:layout_marginRight">16sp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+    </style>
+</resources>

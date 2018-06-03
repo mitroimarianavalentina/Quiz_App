@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marry.quiz.Culture_Quiz">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/layout_margin"
+        android:background="@drawable/culture1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextViews"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_height"
+            android:background="@color/culture_text_view_background"
+            android:text="@string/title_of_culture_quiz"
+            android:textAlignment="center"
+            android:textAllCaps="true" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question1_cultureQuiz" />
+
+            <EditText
+                android:id="@+id/answer_question_one_culture_quiz"
+                style="@style/EditView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/answer_question1_culture"
+                android:inputType="textCapWords" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question2_cultureQuiz" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/answer_one_question_two_culture_quiz"
+                    style="@style/RadioButtonAndCheckBoxes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q2_a1_culture" />
+
+                <RadioButton
+                    android:id="@+id/answer_two_question_two_culture_quiz"
+                    style="@style/RadioButtonAndCheckBoxes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q2_a2_culture_R" />
+
+                <RadioButton
+                    android:id="@+id/answer_three_question_two_culture_quiz"
+                    style="@style/RadioButtonAndCheckBoxes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/q2_a3_culture" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/question3_cultureQuiz" />
+
+            <CheckBox
+                android:id="@+id/answer_one_question_three_culture_quiz"
+                style="@style/RadioButtonAndCheckBoxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q3_a1_culture_R" />
+
+            <CheckBox
+                android:id="@+id/answer_two_question_three_culture_quiz"
+                style="@style/RadioButtonAndCheckBoxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q3_a2_culture_R" />
+
+            <CheckBox
+                android:id="@+id/answer_three_question_three_culture_quiz"
+                style="@style/RadioButtonAndCheckBoxes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q3_a3_culture_R" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/culture_button"
+            style="@style/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/culture_quiz_button"
+            android:onClick="seeAnswerSportsQuiz"
+            android:text="@string/see_answer_culture_quiz"
+            android:textSize="@dimen/textSizeQuiz"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
